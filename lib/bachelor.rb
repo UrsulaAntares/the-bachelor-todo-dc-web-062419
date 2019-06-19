@@ -21,8 +21,14 @@ def get_first_name_of_season_winner(data, season)
         end
       end
     else
+
 #      puts "That's not the season"
     end
+    
+    ############################
+    puts peoples
+  
+    ###########################
   end
   puts "The winner of #{season} was #{winner_first_name}"
   puts winner_first_name
