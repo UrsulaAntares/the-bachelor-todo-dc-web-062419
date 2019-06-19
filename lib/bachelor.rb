@@ -5,7 +5,7 @@ def get_first_name_of_season_winner(data, season)
   puts season_name
   data.each do |season_word, peoples|
     puts season_word
-    season_num = season_word
+    season_num = season_word.split(" ").last
     puts season_num
     if season_word == season_name
       peoples.each do |person|
