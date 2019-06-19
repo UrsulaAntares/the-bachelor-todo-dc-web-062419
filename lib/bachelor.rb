@@ -3,13 +3,13 @@ def get_first_name_of_season_winner(data, season)
 #  puts season
   winner_first_name =""
 #  season_name = "season #{season.to_s}"
-  puts season_name
+#  puts season_name
   data.each do |season_word, peoples|
 #    season_word = season_word.to_s
 #    puts season_word
-    season_num = season_word.to_s.split(" ").last
-    puts season_num
-    if season_word.to_s == season_name
+#    season_num = season_word.to_s.split(" ").last
+#    puts season_num
+    if season == season_name
       peoples.each do |person|
         if person[:status] == "Winner"
           winner_first_name = person[:name].split(" ").first
