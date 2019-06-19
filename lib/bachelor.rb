@@ -5,7 +5,7 @@ def get_first_name_of_season_winner(data, season)
     people.do each |person|
       person.each do |attribute, value|
         puts "her #{attribute} is {#value}"
-      end
+      #end
     end
   end
 end
