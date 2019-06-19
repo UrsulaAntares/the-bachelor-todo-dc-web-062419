@@ -43,7 +43,7 @@ end
 
 
 
-season = 30
+#season = 30
 data={ 
   "season 30": [
     {
