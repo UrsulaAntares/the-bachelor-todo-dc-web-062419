@@ -13,7 +13,7 @@ def get_first_name_of_season_winner(data, season)
         if person[:status] == "Winner"
           winner_first_name = person[:name].split(" ").first
           puts winner_first_name
-          winner << winner_first_name
+          winner << person[:name].split(" ").first
 
           winner_first_name = winner_first_name
 #          return winner_first_name
