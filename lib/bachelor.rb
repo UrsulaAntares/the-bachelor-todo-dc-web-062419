@@ -19,7 +19,8 @@ def get_first_name_of_season_winner(data, season)
           puts winner_first_name
           puts winner_first_name
           winner_first_name = winner_first_name
-          return winner_first_name
+#          return winner_first_name
+          return person[:name].split(" ").first
         end
       end
     else
