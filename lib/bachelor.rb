@@ -3,7 +3,7 @@ def get_first_name_of_season_winner(data, season)
 #  puts season
   data.each do |season_word, people_data|
     people_data.each do |attribute, value|
-      puts "her #{attribute} is {#value}"
+      puts "her #{attribute} is #{value}"
     end
   end
 end
