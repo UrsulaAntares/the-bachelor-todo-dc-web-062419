@@ -20,7 +20,7 @@ def get_first_name_of_season_winner(data, season)
         end
       end
     else
-      puts "That's not a season"
+#      puts "That's not the season"
     end
   end
   puts "The winner of #{season} was #{winner_first_name}"
