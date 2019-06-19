@@ -22,7 +22,7 @@ def get_first_name_of_season_winner(data, season)
       puts "It doesn't match a season"
     end
   end
-  puts "The winner of season #{season} was #{winner_first_name}"
+  puts "The winner of #{season} was #{winner_first_name}"
   winner_first_name
 end
 
