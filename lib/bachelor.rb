@@ -16,6 +16,9 @@ def get_first_name_of_season_winner(data, season)
           puts "This is inside the if #{winner_first_name}"
           winner_first_name = person[:name].split(" ").first
           puts winner_first_name
+          puts winner_first_name
+          puts winner_first_name
+          puts winner_first_name
         end
       end
     else
