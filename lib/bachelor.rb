@@ -4,6 +4,7 @@ def get_first_name_of_season_winner(data, season)
   season_name = "season #{season.to_s}"
   puts season_name
   data.each do |season_word, peoples|
+    puts season_word
     if season_word == season_name
       peoples.each do |person|
         if person[:status] == "Winner"
