@@ -47,7 +47,7 @@ end
 
 
 
-season = 30
+season = 29
 
 
 data= { 
