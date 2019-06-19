@@ -11,6 +11,8 @@ def get_first_name_of_season_winner(data, season)
           puts person[:name].split(" ").first
         end
       end
+    else
+      puts "It doesn't match a season"
     end
   end
 end
