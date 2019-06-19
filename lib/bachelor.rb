@@ -5,6 +5,7 @@ def get_first_name_of_season_winner(data, season)
     peoples.each do |person|
       if person[:status] == "Winner"
         puts person[:name].split(" ").first
+      end
     end
   end
 end
