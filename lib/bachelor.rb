@@ -8,7 +8,7 @@ def get_first_name_of_season_winner(data, season)
 #    puts season_word
     season_num = season_word.to_s.split(" ").last
     puts season_num
-    if season_word == season_name
+    if season_word.to_s == season_name
       peoples.each do |person|
         if person[:status] == "Winner"
           puts person[:name].split(" ").first
