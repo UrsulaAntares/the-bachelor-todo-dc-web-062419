@@ -52,7 +52,7 @@ end
 
 
 
-season = "season 17"
+season = "season 10"
 
 
 data= {
