@@ -27,6 +27,7 @@ def get_first_name_of_season_winner(data, season)
   puts "The winner of #{season} was #{winner_first_name}"
   puts winner_first_name
   winner_first_name
+  winner
 end
 
 def get_contestant_name(data, occupation)
