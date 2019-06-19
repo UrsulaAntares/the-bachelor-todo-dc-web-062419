@@ -14,7 +14,7 @@ def get_first_name_of_season_winner(data, season)
         if person[:status] == "Winner"
           winner_first_name = person[:name].split(" ").first
           puts "This is inside the if #{winner_first_name}"
-          return winner_first_name = person[:name].split(" ").first
+          winner_first_name = person[:name].split(" ").first
         end
       end
     else
@@ -22,6 +22,7 @@ def get_first_name_of_season_winner(data, season)
     end
   end
   puts "The winner of season #{season} was #{winner_first_name}"
+  winner_first_name
 end
 
 def get_contestant_name(data, occupation)
