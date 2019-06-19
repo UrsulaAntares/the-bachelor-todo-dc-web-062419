@@ -25,10 +25,6 @@ def get_first_name_of_season_winner(data, season)
 #      puts "That's not the season"
     end
     
-    ############################Trying a different way
-    puts peoples
-  
-    ###########################
   end
   puts "The winner of #{season} was #{winner_first_name}"
   puts winner_first_name
