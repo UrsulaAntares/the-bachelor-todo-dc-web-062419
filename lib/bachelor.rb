@@ -19,3 +19,6 @@ end
 def get_average_age_for_season(data, season)
   # code here
 end
+
+
+get_first_name_of_season_winner(data, season)
