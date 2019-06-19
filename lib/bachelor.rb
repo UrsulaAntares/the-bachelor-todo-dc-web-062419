@@ -25,7 +25,7 @@ def get_first_name_of_season_winner(data, season)
 #      puts "That's not the season"
     end
     
-    ############################
+    ############################Trying a different way
     puts peoples
   
     ###########################
