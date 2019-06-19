@@ -1,6 +1,4 @@
 def get_first_name_of_season_winner(data, season)
-#  puts data
-#  puts season
   winner_first_name =""
 #  season_name = "season #{season.to_s}"
 #  puts season_name
@@ -13,8 +11,6 @@ def get_first_name_of_season_winner(data, season)
       peoples.each do |person|
         if person[:status] == "Winner"
           winner_first_name = person[:name].split(" ").first
-#          puts "This is inside the if #{winner_first_name}"
-          winner_first_name = person[:name].split(" ").first
           puts winner_first_name
           puts winner_first_name
           puts winner_first_name
@@ -24,7 +20,7 @@ def get_first_name_of_season_winner(data, season)
         end
       end
     else
-      puts "It doesn't match a season"
+      puts "That's not a season"
     end
   end
   puts "The winner of #{season} was #{winner_first_name}"
