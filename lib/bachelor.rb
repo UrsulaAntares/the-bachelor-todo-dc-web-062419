@@ -43,7 +43,7 @@ end
 
 
 
-#season = 30
+season = 30
 
 
 { 
@@ -82,4 +82,4 @@ end
 }
 
 
-#get_first_name_of_season_winner(data, season)
+get_first_name_of_season_winner(data, season)
