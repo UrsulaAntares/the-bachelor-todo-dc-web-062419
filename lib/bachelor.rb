@@ -1,7 +1,7 @@
 def get_first_name_of_season_winner(data, season)
 #  puts data
 #  puts season
-  season_name = "season #{season.to_s}.chomp!"
+  season_name = "season #{season.to_s}.chomp"
   puts season_name
   data.each do |season_word, peoples|
     puts season_word
