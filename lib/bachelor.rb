@@ -2,7 +2,7 @@ def get_first_name_of_season_winner(data, season)
 #  puts data
 #  puts season
   season = "season #{season.to_s}"
-#  puts season
+  puts season
   data.each do |season_word, peoples|
     #if season_word
     peoples.each do |person|
