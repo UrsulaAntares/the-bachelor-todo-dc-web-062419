@@ -21,6 +21,7 @@ def get_first_name_of_season_winner(data, season)
       puts "It doesn't match a season"
     end
   end
+  puts winner_first_name
 end
 
 def get_contestant_name(data, occupation)
