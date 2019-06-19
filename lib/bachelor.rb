@@ -18,7 +18,6 @@ def get_first_name_of_season_winner(data, season)
 #          return winner_first_name
           return person[:name].split(" ").first
         end
-                  break if winner_first_name != ""
       end
     else
 #      puts "That's not the season"
