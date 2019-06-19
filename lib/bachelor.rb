@@ -44,7 +44,7 @@ end
 
 
 #season = 30
-data={ 
+<!-data={ 
   "season 30": [
     {
       "name":      "Beth Smalls",
@@ -84,4 +84,4 @@ data={
 
 
 
-get_first_name_of_season_winner(data, season)
+#get_first_name_of_season_winner(data, season)
